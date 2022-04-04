@@ -1,4 +1,4 @@
-# Category_Level_Manipulation
+# Category Level Manipulation
 
 ## Introduction
 
@@ -35,9 +35,9 @@ Method V (GAIL + Progressive Growing of Discriminator + Self-Imitation Learning 
 
 SAC: run the shell command [scripts/train_rl_agent/run_SAC_door.sh](scripts/train_rl_agent/run_SAC_door.sh)
 
-GAIL + Dense Reward: first temporarily modify [mani_skill_learn/methods/mfrl/gail.py in line 119](mani_skill_learn/methods/mfrl/gail.py#119) and set env_r to 0.5 to enable environmental dense reward. Then run the shell command [scripts/train_rl_agent/run_GAIL_baseline_door.sh](scripts/train_rl_agent/run_GAIL_baseline_door.sh)
+GAIL + Dense Reward: first temporarily modify [mani_skill_learn/methods/mfrl/gail.py in line 119](https://github.com/wkwan7/Category_Level_Manipulation/blob/da0c446188de6c3717a038687ca2f594d71a12c6/mani_skill_learn/methods/mfrl/gail.py#L119) and set env_r to 0.5 to enable environmental dense reward. Then run the shell command [scripts/train_rl_agent/run_GAIL_baseline_door.sh](scripts/train_rl_agent/run_GAIL_baseline_door.sh)
 
-Method V + Dense Reward: first temporarily modify [mani_skill_learn/methods/mfrl/gail.py in line 119](mani_skill_learn/methods/mfrl/gail.py#119) and set env_r to 0.5 to enable environmental dense reward. Then run the shell command [scripts/train_rl_agent/run_GAIL_use_all_door.sh](scripts/train_rl_agent/run_GAIL_use_all_door.sh)
+Method V + Dense Reward: first temporarily modify [mani_skill_learn/methods/mfrl/gail.py in line 119](https://github.com/wkwan7/Category_Level_Manipulation/blob/da0c446188de6c3717a038687ca2f594d71a12c6/mani_skill_learn/methods/mfrl/gail.py#L119) and set env_r to 0.5 to enable environmental dense reward. Then run the shell command [scripts/train_rl_agent/run_GAIL_use_all_door.sh](scripts/train_rl_agent/run_GAIL_use_all_door.sh)
 
 
 ## Evaluation
